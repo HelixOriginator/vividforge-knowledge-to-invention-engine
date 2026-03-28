@@ -3,31 +3,32 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="google-site-verification" content="6qcwYwzA6RaAwLVA6G3HBTprB8Bdw4A16uZCF5e9Ar8" />
 <title>VividForge — The Living Knowledge Forge</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 :root{
-  --bg:#06080f;--bg2:#0b0f1c;--bg3:#111827;
-  --forge:#ff6d1f;--forge2:#ff9a5c;--gold:#f5c542;
-  --pulse:#00d4ff;--pulse2:#00aacc;--green:#0fd49a;
-  --text:#d8e0f0;--muted:#5a6a88;--muted2:#8899bb;
-  --border:rgba(0,212,255,0.1);--border2:rgba(255,109,31,0.15);
-  --ff-d:'Georgia','Times New Roman',serif;
-  --ff-b:'Segoe UI','Helvetica Neue',Arial,sans-serif;
-  --ff-m:'Courier New',Courier,monospace;
+--bg:#06080f;--bg2:#0b0f1c;--bg3:#111827;
+--forge:#ff6d1f;--forge2:#ff9a5c;--gold:#f5c542;
+--pulse:#00d4ff;--pulse2:#00aacc;--green:#0fd49a;
+--text:#d8e0f0;--muted:#5a6a88;--muted2:#8899bb;
+--border:rgba(0,212,255,0.1);--border2:rgba(255,109,31,0.15);
+--ff-d:'Georgia','Times New Roman',serif;
+--ff-b:'Segoe UI','Helvetica Neue',Arial,sans-serif;
+--ff-m:'Courier New',Courier,monospace;
 }
 body{background:var(--bg);color:var(--text);font-family:var(--ff-b);font-size:15px;line-height:1.8;overflow-x:hidden}
 body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
-  background:radial-gradient(ellipse 70% 50% at 5% 15%,rgba(255,109,31,.07) 0,transparent 60%),
-  radial-gradient(ellipse 60% 70% at 95% 85%,rgba(0,212,255,.06) 0,transparent 60%)}
+background:radial-gradient(ellipse 70% 50% at 5% 15%,rgba(255,109,31,.07) 0,transparent 60%),
+radial-gradient(ellipse 60% 70% at 95% 85%,rgba(0,212,255,.06) 0,transparent 60%)}
 body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
-  background-image:linear-gradient(rgba(0,212,255,.022) 1px,transparent 1px),
-  linear-gradient(90deg,rgba(0,212,255,.022) 1px,transparent 1px);background-size:56px 56px}
+background-image:linear-gradient(rgba(0,212,255,.022) 1px,transparent 1px),
+linear-gradient(90deg,rgba(0,212,255,.022) 1px,transparent 1px);background-size:56px 56px}
 .wrap{max-width:1060px;margin:0 auto;padding:0 1.8rem;position:relative;z-index:1}
 h1{font-family:var(--ff-d);font-size:clamp(2.4rem,6.5vw,4.5rem);font-weight:700;letter-spacing:.02em;line-height:1.1;
-  background:linear-gradient(130deg,var(--forge2) 0%,var(--gold) 45%,var(--forge) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+background:linear-gradient(130deg,var(--forge2) 0%,var(--gold) 45%,var(--forge) 100%);
+-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 h2{font-family:var(--ff-d);font-size:clamp(1.5rem,3.8vw,2.1rem);font-weight:700;color:var(--gold);line-height:1.2}
 h3{font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--pulse);line-height:1.2}
 h4{font-size:.95rem;font-weight:700;color:var(--text)}
@@ -39,25 +40,25 @@ strong{font-weight:700;color:var(--text);opacity:1}
 .divider span{color:var(--forge);font-size:1.2rem}
 header{padding:5rem 0 3rem;text-align:center}
 .emblem{display:inline-flex;align-items:center;justify-content:center;width:88px;height:88px;border-radius:50%;
-  background:conic-gradient(var(--forge),var(--forge2),var(--gold),var(--forge));
-  box-shadow:0 0 60px rgba(255,109,31,.5),0 0 120px rgba(255,109,31,.15);
-  animation:spin 10s linear infinite;font-size:2.4rem;margin-bottom:2rem}
+background:conic-gradient(var(--forge),var(--forge2),var(--gold),var(--forge));
+box-shadow:0 0 60px rgba(255,109,31,.5),0 0 120px rgba(255,109,31,.15);
+animation:spin 10s linear infinite;font-size:2.4rem;margin-bottom:2rem}
 @keyframes spin{to{transform:rotate(360deg)}}
 .htag{font-family:var(--ff-m);font-size:.68rem;letter-spacing:.32em;text-transform:uppercase;color:var(--pulse);opacity:.8;margin-bottom:.8rem}
 .hsub{font-family:var(--ff-d);font-size:clamp(.95rem,2.5vw,1.35rem);letter-spacing:.15em;color:var(--pulse);margin-bottom:1.8rem}
 .hp{max-width:740px;margin:0 auto 2rem;font-size:1.05rem;opacity:.82}
 .badges{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin-bottom:.5rem}
 .badge{background:rgba(0,212,255,.07);border:1px solid var(--border);border-radius:100px;
-  padding:.28rem 1rem;font-family:var(--ff-m);font-size:.72rem;letter-spacing:.07em;color:var(--pulse2)}
+padding:.28rem 1rem;font-family:var(--ff-m);font-size:.72rem;letter-spacing:.07em;color:var(--pulse2)}
 .pbox{background:linear-gradient(135deg,rgba(255,109,31,.06),rgba(11,15,28,.95));
-  border:1px solid var(--border2);border-radius:12px;padding:2rem 2.5rem;position:relative;overflow:hidden}
+border:1px solid var(--border2);border-radius:12px;padding:2rem 2.5rem;position:relative;overflow:hidden}
 .pbox::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;
-  background:linear-gradient(180deg,var(--forge),var(--forge2));border-radius:4px 0 0 4px}
+background:linear-gradient(180deg,var(--forge),var(--forge2));border-radius:4px 0 0 4px}
 .pbox blockquote{font-size:1.06rem;font-style:italic;color:var(--forge2);line-height:1.85}
 .stats{display:flex;flex-wrap:wrap;gap:1rem;margin:1.8rem 0}
 .stat{flex:1;min-width:140px;text-align:center;background:var(--bg3);border:1px solid var(--border);border-radius:10px;padding:1.4rem 1rem}
 .sv{display:block;font-family:var(--ff-d);font-size:1.9rem;font-weight:700;
-  background:linear-gradient(135deg,var(--forge2),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.25rem}
+background:linear-gradient(135deg,var(--forge2),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.25rem}
 .sl2{font-family:var(--ff-m);font-size:.72rem;color:var(--muted);letter-spacing:.07em}
 .pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(460px,1fr));gap:1.5rem}
 @media(max-width:700px){.pillars{grid-template-columns:1fr}}
@@ -69,15 +70,15 @@ header{padding:5rem 0 3rem;text-align:center}
 .pillar ul li{padding:.22rem 0 .22rem 1.4rem;position:relative;font-size:.88rem;opacity:.82}
 .pillar ul li::before{content:'›';position:absolute;left:0;color:var(--forge);font-size:1.1rem;line-height:1.6}
 .tgrid{background:linear-gradient(135deg,rgba(0,212,255,.05),rgba(6,8,15,.95));
-  border:1px solid var(--border);border-radius:16px;padding:2.5rem;
-  display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}
+border:1px solid var(--border);border-radius:16px;padding:2.5rem;
+display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}
 @media(max-width:680px){.tgrid{grid-template-columns:1fr}}
 .tvis{text-align:center}
 .coin{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;
-  width:140px;height:140px;border-radius:50%;
-  background:conic-gradient(var(--pulse),var(--pulse2),var(--green),var(--pulse));
-  box-shadow:0 0 60px rgba(0,212,255,.4);animation:pc 3s ease-in-out infinite;
-  color:var(--bg);font-family:var(--ff-d);font-size:.82rem;font-weight:700;text-align:center;line-height:1.4;padding:1.2rem}
+width:140px;height:140px;border-radius:50%;
+background:conic-gradient(var(--pulse),var(--pulse2),var(--green),var(--pulse));
+box-shadow:0 0 60px rgba(0,212,255,.4);animation:pc 3s ease-in-out infinite;
+color:var(--bg);font-family:var(--ff-d);font-size:.82rem;font-weight:700;text-align:center;line-height:1.4;padding:1.2rem}
 @keyframes pc{0%,100%{box-shadow:0 0 40px rgba(0,212,255,.4)}50%{box-shadow:0 0 80px rgba(0,212,255,.7)}}
 .tnote{font-family:var(--ff-m);font-size:.7rem;color:var(--muted);margin-top:1rem;letter-spacing:.06em}
 .tlist{list-style:none;margin-top:1rem}
@@ -118,17 +119,16 @@ tbody td:last-child{color:var(--pulse2);font-weight:600;opacity:1}
 tbody tr:last-child td{border-bottom:none}
 tbody tr:hover td{background:rgba(0,212,255,.025)}
 .cta{text-align:center;background:linear-gradient(135deg,rgba(255,109,31,.08),rgba(0,212,255,.05));
-  border:1px solid var(--border2);border-radius:18px;padding:3.5rem 2rem;position:relative;overflow:hidden}
+border:1px solid var(--border2);border-radius:18px;padding:3.5rem 2rem;position:relative;overflow:hidden}
 .ctal{position:absolute;inset:-2px;border-radius:18px;z-index:-1;
-  background:linear-gradient(90deg,var(--forge),var(--pulse),var(--forge));background-size:200%;
-  animation:bf 4s linear infinite;opacity:.3}
+background:linear-gradient(90deg,var(--forge),var(--pulse),var(--forge));background-size:200%;
+animation:bf 4s linear infinite;opacity:.3}
 @keyframes bf{0%{background-position:0%}100%{background-position:200%}}
 .cta h2{color:var(--text);margin-bottom:.8rem}
 .cta p{max-width:580px;margin:0 auto 1.5rem;font-size:1rem;opacity:.8}
-
 footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 0 2rem;margin-top:5rem;position:relative;z-index:1}
 .flogo{font-family:var(--ff-d);font-size:1.15rem;font-weight:700;
-  background:linear-gradient(135deg,var(--forge2),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.4rem}
+background:linear-gradient(135deg,var(--forge2),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.4rem}
 .ftag{font-family:var(--ff-m);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:2rem}
 .fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:2rem;margin-bottom:2.5rem}
 @media(max-width:640px){.fgrid{grid-template-columns:1fr}}
@@ -150,255 +150,238 @@ section{margin-bottom:1rem}
 </style>
 </head>
 <body>
-
 <header>
 <div class="wrap">
-  <div class="emblem">&#9881;</div>
-  <div class="htag">Original Concept &nbsp;&middot;&nbsp; Planetary Innovation Architecture &nbsp;&middot;&nbsp; Est. 2025</div>
-  <h1>VividForge</h1>
-  <div class="hsub">The Living Knowledge Forge</div>
-  <p class="hp">A self-sustaining, planetary-scale knowledge-to-invention engine that transforms every published top-journal paper from a static document into a living blueprint — placing real, deployable technology into the hands of ordinary people within months, not decades.</p>
-  <div class="badges">
-    <span class="badge">// Decentralised AI Network</span>
-    <span class="badge">// ForgePulse Token</span>
-    <span class="badge">// DAO Governance</span>
-    <span class="badge">// Zero Gatekeepers</span>
-    <span class="badge">// Open-Source First</span>
-    <span class="badge">// Real-Time Impact Metrics</span>
-  </div>
+<div class="emblem">&#9881;</div>
+<div class="htag">Original Concept &nbsp;&middot;&nbsp; Planetary Innovation Architecture &nbsp;&middot;&nbsp; Est. 2025</div>
+<h1>VividForge</h1>
+<div class="hsub">The Living Knowledge Forge</div>
+<p class="hp">A self-sustaining, planetary-scale knowledge-to-invention engine that transforms every published top-journal paper from a static document into a living blueprint — placing real, deployable technology into the hands of ordinary people within months, not decades.</p>
+<div class="badges">
+<span class="badge">// Decentralised AI Network</span>
+<span class="badge">// ForgePulse Token</span>
+<span class="badge">// DAO Governance</span>
+<span class="badge">// Zero Gatekeepers</span>
+<span class="badge">// Open-Source First</span>
+<span class="badge">// Real-Time Impact Metrics</span>
+</div>
 </div>
 </header>
-
 <main>
 <div class="wrap">
-
 <div class="divider"><span>&#9888;</span></div>
 <section>
-  <span class="sl">// The Problem</span>
-  <h2>The Translation Gap That Costs Humanity Decades</h2>
-  <br/>
-  <div class="pbox">
-    <blockquote>"Top-tier academic papers end up cited by other researchers but rarely reach or improve the daily lives of billions. A single technocrat-led invention — the smartphone, mRNA vaccines at scale, cheap solar panels — spreads virally and touches everyone within years. The missing link is a mechanism that forces immediate, practical translation."</blockquote>
-  </div>
-  <br/>
-  <div class="stats">
-    <div class="stat"><span class="sv">15&ndash;20</span><span class="sl2">Years avg. lab to field</span></div>
-    <div class="stat"><span class="sv">&lt; 3%</span><span class="sl2">Papers reach mass use</span></div>
-    <div class="stat"><span class="sv">&#8734;</span><span class="sl2">Gatekeepers blocking flow</span></div>
-    <div class="stat"><span class="sv">0</span><span class="sl2">Closed-loop forge systems</span></div>
-  </div>
+<span class="sl">// The Problem</span>
+<h2>The Translation Gap That Costs Humanity Decades</h2>
+<br/>
+<div class="pbox">
+<blockquote>"Top-tier academic papers end up cited by other researchers but rarely reach or improve the daily lives of billions. A single technocrat-led invention — the smartphone, mRNA vaccines at scale, cheap solar panels — spreads virally and touches everyone within years. The missing link is a mechanism that forces immediate, practical translation."</blockquote>
+</div>
+<br/>
+<div class="stats">
+<div class="stat"><span class="sv">15&ndash;20</span><span class="sl2">Years avg. lab to field</span></div>
+<div class="stat"><span class="sv">&lt; 3%</span><span class="sl2">Papers reach mass use</span></div>
+<div class="stat"><span class="sv">&#8734;</span><span class="sl2">Gatekeepers blocking flow</span></div>
+<div class="stat"><span class="sv">0</span><span class="sl2">Closed-loop forge systems</span></div>
+</div>
 </section>
-
 <div class="divider"><span>&#9881;</span></div>
 <section>
-  <span class="sl">// Core Architecture</span>
-  <h2>The Four Unbreakable Rules of VividForge</h2>
-  <p>VividForge is not a platform, app, or AI tool. It is a new institutional layer for humanity &mdash; the first system that makes academic discovery and technocratic invention the <em>same continuous process</em>, enforced by code and incentives rather than good intentions.</p>
-  <br/>
-  <div class="pillars">
-    <div class="pillar">
-      <span class="pnum">01</span>
-      <span class="picon">&#128300;</span>
-      <h3>Instant Ingestion &amp; Blueprint Generation</h3>
-      <p>The moment a paper is published in a qualifying top journal, an open, AI-orchestrated network reads it, cross-references it against real-time global data, and auto-generates <strong>Vivid Blueprints</strong> &mdash; complete, ready-to-build invention specifications.</p>
-      <ul>
-        <li>Bill-of-materials and open-source code included</li>
-        <li>3D-printable designs tailored by region and income level</li>
-        <li>Local manufacturing instructions in any language</li>
-        <li>Cross-referenced with satellite imagery, IoT and citizen data</li>
-        <li>Distributed compute &mdash; any node can join the network</li>
-      </ul>
-    </div>
-    <div class="pillar">
-      <span class="pnum">02</span>
-      <span class="picon">&#129309;</span>
-      <h3>Citizen&ndash;Technocrat Matching &amp; Micro-Deployment</h3>
-      <p>Ordinary people submit local problems via a simple mobile app in any language. The system matches problems to the most relevant Vivid Blueprint and connects it to nearby makers, technocrats, or small factories.</p>
-      <ul>
-        <li>Any-language problem submission ("my village water is saline")</li>
-        <li>AI-powered blueprint-to-problem matching</li>
-        <li>ForgePulse micro-grant released only on live prototypes</li>
-        <li>100-verified-user gate before any grant is released</li>
-        <li>Real-time impact via embedded sensors and blockchain</li>
-      </ul>
-    </div>
-    <div class="pillar">
-      <span class="pnum">03</span>
-      <span class="picon">&#128257;</span>
-      <h3>Recursive Self-Improvement Loop</h3>
-      <p>Every successful deployment feeds performance data back into the AI and into future academic incentives. The system literally evolves itself &mdash; creating exponential acceleration no tech-transfer office can match.</p>
-      <ul>
-        <li>Journals earn "Impact Multipliers" on citation metrics</li>
-        <li>Researchers receive automatic funding and tenure bonuses</li>
-        <li>Royalty shares tied to real-world ForgePulse value</li>
-        <li>Failed blueprints automatically retired by the system</li>
-        <li>Faster and smarter with every deployment cycle</li>
-      </ul>
-    </div>
-    <div class="pillar">
-      <span class="pnum">04</span>
-      <span class="picon">&#127760;</span>
-      <h3>Zero Gatekeepers, Maximum Velocity</h3>
-      <p>No university tech-transfer office, no venture capitalist, no government committee can block a blueprint. Governance is handled by a transparent DAO weighted by proven impact, not pedigree or capital.</p>
-      <ul>
-        <li>Transparent DAO governance &mdash; code enforces the rules</li>
-        <li>Voting power weighted by proven real-world impact</li>
-        <li>Default licensing: open-source global</li>
-        <li>Patents optional and intentionally short-lived</li>
-        <li>Any country or village can copy and adapt instantly</li>
-      </ul>
-    </div>
-  </div>
+<span class="sl">// Core Architecture</span>
+<h2>The Four Unbreakable Rules of VividForge</h2>
+<p>VividForge is not a platform, app, or AI tool. It is a new institutional layer for humanity &mdash; the first system that makes academic discovery and technocratic invention the <em>same continuous process</em>, enforced by code and incentives rather than good intentions.</p>
+<br/>
+<div class="pillars">
+<div class="pillar">
+<span class="pnum">01</span>
+<span class="picon">&#128300;</span>
+<h3>Instant Ingestion &amp; Blueprint Generation</h3>
+<p>The moment a paper is published in a qualifying top journal, an open, AI-orchestrated network reads it, cross-references it against real-time global data, and auto-generates <strong>Vivid Blueprints</strong> &mdash; complete, ready-to-build invention specifications.</p>
+<ul>
+<li>Bill-of-materials and open-source code included</li>
+<li>3D-printable designs tailored by region and income level</li>
+<li>Local manufacturing instructions in any language</li>
+<li>Cross-referenced with satellite imagery, IoT and citizen data</li>
+<li>Distributed compute &mdash; any node can join the network</li>
+</ul>
+</div>
+<div class="pillar">
+<span class="pnum">02</span>
+<span class="picon">&#129309;</span>
+<h3>Citizen&ndash;Technocrat Matching &amp; Micro-Deployment</h3>
+<p>Ordinary people submit local problems via a simple mobile app in any language. The system matches problems to the most relevant Vivid Blueprint and connects it to nearby makers, technocrats, or small factories.</p>
+<ul>
+<li>Any-language problem submission ("my village water is saline")</li>
+<li>AI-powered blueprint-to-problem matching</li>
+<li>ForgePulse micro-grant released only on live prototypes</li>
+<li>100-verified-user gate before any grant is released</li>
+<li>Real-time impact via embedded sensors and blockchain</li>
+</ul>
+</div>
+<div class="pillar">
+<span class="pnum">03</span>
+<span class="picon">&#128257;</span>
+<h3>Recursive Self-Improvement Loop</h3>
+<p>Every successful deployment feeds performance data back into the AI and into future academic incentives. The system literally evolves itself &mdash; creating exponential acceleration no tech-transfer office can match.</p>
+<ul>
+<li>Journals earn "Impact Multipliers" on citation metrics</li>
+<li>Researchers receive automatic funding and tenure bonuses</li>
+<li>Royalty shares tied to real-world ForgePulse value</li>
+<li>Failed blueprints automatically retired by the system</li>
+<li>Faster and smarter with every deployment cycle</li>
+</ul>
+</div>
+<div class="pillar">
+<span class="pnum">04</span>
+<span class="picon">&#127760;</span>
+<h3>Zero Gatekeepers, Maximum Velocity</h3>
+<p>No university tech-transfer office, no venture capitalist, no government committee can block a blueprint. Governance is handled by a transparent DAO weighted by proven impact, not pedigree or capital.</p>
+<ul>
+<li>Transparent DAO governance &mdash; code enforces the rules</li>
+<li>Voting power weighted by proven real-world impact</li>
+<li>Default licensing: open-source global</li>
+<li>Patents optional and intentionally short-lived</li>
+<li>Any country or village can copy and adapt instantly</li>
+</ul>
+</div>
+</div>
 </section>
-
 <div class="divider"><span>&#128142;</span></div>
 <section>
-  <span class="sl">// Native Token Economy</span>
-  <h2>ForgePulse &mdash; The Currency of Real-World Impact</h2>
-  <div class="tgrid">
-    <div>
-      <p>ForgePulse is not a speculative cryptocurrency. It is a <strong>proof-of-impact instrument</strong> &mdash; tokens are minted only when a blueprint is live and verified to have reached at least 100 local users. Value is anchored to measurable planetary benefit, not market sentiment.</p>
-      <p>Researchers, makers, and communities accrue ForgePulse proportional to the genuine change they create &mdash; lives improved, CO&#8322; reduced, income gained. This realigns the global economy of knowledge around outcomes, not outputs.</p>
-      <ul class="tlist">
-        <li>&#9889; Minted only on verified real-world deployment</li>
-        <li>&#128225; Blockchain-verified via independent sensor networks</li>
-        <li>&#127807; Proportional rewards for all contributors</li>
-        <li>&#128274; Anti-gaming: impact verified independently</li>
-      </ul>
-    </div>
-    <div class="tvis">
-      <div class="coin">FORGE<br/>PULSE<br/>&#9889;<br/><span style="font-size:.65rem;opacity:.7">Impact Token</span></div>
-      <p class="tnote">1 FP = 1 Verified Impact Unit</p>
-    </div>
-  </div>
+<span class="sl">// Native Token Economy</span>
+<h2>ForgePulse &mdash; The Currency of Real-World Impact</h2>
+<div class="tgrid">
+<div>
+<p>ForgePulse is not a speculative cryptocurrency. It is a <strong>proof-of-impact instrument</strong> &mdash; tokens are minted only when a blueprint is live and verified to have reached at least 100 local users. Value is anchored to measurable planetary benefit, not market sentiment.</p>
+<p>Researchers, makers, and communities accrue ForgePulse proportional to the genuine change they create &mdash; lives improved, CO&#8322; reduced, income gained. This realigns the global economy of knowledge around outcomes, not outputs.</p>
+<ul class="tlist">
+<li>&#9889; Minted only on verified real-world deployment</li>
+<li>&#128225; Blockchain-verified via independent sensor networks</li>
+<li>&#127807; Proportional rewards for all contributors</li>
+<li>&#128274; Anti-gaming: impact verified independently</li>
+</ul>
+</div>
+<div class="tvis">
+<div class="coin">FORGE<br/>PULSE<br/>&#9889;<br/><span style="font-size:.65rem;opacity:.7">Impact Token</span></div>
+<p class="tnote">1 FP = 1 Verified Impact Unit</p>
+</div>
+</div>
 </section>
-
 <div class="divider"><span>&#8594;</span></div>
 <section>
-  <span class="sl">// System Flow</span>
-  <h2>From Laboratory to Living Room in Months</h2>
-  <p style="margin-bottom:2rem">The VividForge pipeline replaces decades of gatekept translation with a closed-loop system that never stops improving.</p>
-  <div class="flow">
-    <div class="fstep"><span class="ficon">&#128196;</span><div class="flbl">Step 01</div><div class="fttl">Paper Published</div></div>
-    <div class="fstep"><span class="ficon">&#129302;</span><div class="flbl">Step 02</div><div class="fttl">AI Ingestion &amp; Blueprint</div></div>
-    <div class="fstep"><span class="ficon">&#128241;</span><div class="flbl">Step 03</div><div class="fttl">Citizen Problem Match</div></div>
-    <div class="fstep"><span class="ficon">&#127981;</span><div class="flbl">Step 04</div><div class="fttl">Local Maker Deploys</div></div>
-    <div class="fstep"><span class="ficon">&#9989;</span><div class="flbl">Step 05</div><div class="fttl">Impact Verified &amp; Token Minted</div></div>
-    <div class="fstep"><span class="ficon">&#128257;</span><div class="flbl">Step 06</div><div class="fttl">Data Feeds AI Back</div></div>
-  </div>
+<span class="sl">// System Flow</span>
+<h2>From Laboratory to Living Room in Months</h2>
+<p style="margin-bottom:2rem">The VividForge pipeline replaces decades of gatekept translation with a closed-loop system that never stops improving.</p>
+<div class="flow">
+<div class="fstep"><span class="ficon">&#128196;</span><div class="flbl">Step 01</div><div class="fttl">Paper Published</div></div>
+<div class="fstep"><span class="ficon">&#129302;</span><div class="flbl">Step 02</div><div class="fttl">AI Ingestion &amp; Blueprint</div></div>
+<div class="fstep"><span class="ficon">&#128241;</span><div class="flbl">Step 03</div><div class="fttl">Citizen Problem Match</div></div>
+<div class="fstep"><span class="ficon">&#127981;</span><div class="flbl">Step 04</div><div class="fttl">Local Maker Deploys</div></div>
+<div class="fstep"><span class="ficon">&#9989;</span><div class="flbl">Step 05</div><div class="fttl">Impact Verified &amp; Token Minted</div></div>
+<div class="fstep"><span class="ficon">&#128257;</span><div class="flbl">Step 06</div><div class="fttl">Data Feeds AI Back</div></div>
+</div>
 </section>
-
 <div class="divider"><span>&#128101;</span></div>
 <section>
-  <span class="sl">// Beneficiaries</span>
-  <h2>Who VividForge Transforms</h2>
-  <div class="stakes">
-    <div class="stake sa"><span class="sicon">&#127806;</span><h4>The Common Person</h4><p>A farmer in Uttar Pradesh or a mother in sub-Saharan Africa receives a drought-resistant seed variety, cheap water purifier, or AI diagnostic tool within months of the underlying science being published &mdash; not 15&ndash;20 years later. They become <strong>co-creators, not passive consumers</strong>.</p></div>
-    <div class="stake sb"><span class="sicon">&#127891;</span><h4>Researchers &amp; Academia</h4><p>Publishing in a top journal becomes the fastest route to real-world prestige, funding, and tenure. The "negligible impact" problem disappears overnight. Impact Multipliers reward the science that matters most.</p></div>
-    <div class="stake sc"><span class="sicon">&#9881;</span><h4>Technocrats &amp; Entrepreneurs</h4><p>An endless, pre-validated pipeline of ideas matched to proven problems. R&amp;D risk slashed. Time-to-market compressed. The forge does ideation and validation; makers execute at speed.</p></div>
-    <div class="stake sd"><span class="sicon">&#127758;</span><h4>The Planet</h4><p>Climate solutions deploy at the speed of TikTok virality instead of IPCC reports. New antibiotics reach rural clinics before rich-country hospitals. A new global economy emerges around <strong>measured positive impact</strong>.</p></div>
-  </div>
+<span class="sl">// Beneficiaries</span>
+<h2>Who VividForge Transforms</h2>
+<div class="stakes">
+<div class="stake sa"><span class="sicon">&#127806;</span><h4>The Common Person</h4><p>A farmer in Uttar Pradesh or a mother in sub-Saharan Africa receives a drought-resistant seed variety, cheap water purifier, or AI diagnostic tool within months of the underlying science being published &mdash; not 15&ndash;20 years later. They become <strong>co-creators, not passive consumers</strong>.</p></div>
+<div class="stake sb"><span class="sicon">&#127891;</span><h4>Researchers &amp; Academia</h4><p>Publishing in a top journal becomes the fastest route to real-world prestige, funding, and tenure. The "negligible impact" problem disappears overnight. Impact Multipliers reward the science that matters most.</p></div>
+<div class="stake sc"><span class="sicon">&#9881;</span><h4>Technocrats &amp; Entrepreneurs</h4><p>An endless, pre-validated pipeline of ideas matched to proven problems. R&amp;D risk slashed. Time-to-market compressed. The forge does ideation and validation; makers execute at speed.</p></div>
+<div class="stake sd"><span class="sicon">&#127758;</span><h4>The Planet</h4><p>Climate solutions deploy at the speed of TikTok virality instead of IPCC reports. New antibiotics reach rural clinics before rich-country hospitals. A new global economy emerges around <strong>measured positive impact</strong>.</p></div>
+</div>
 </section>
-
 <div class="divider"><span>&#9878;</span></div>
 <section>
-  <span class="sl">// Competitive Landscape</span>
-  <h2>Why Nothing Else Comes Close</h2>
-  <p style="margin-bottom:1.5rem">Every existing system has a structural gap that VividForge eliminates by design.</p>
-  <div class="tblw">
-  <table>
-    <thead><tr><th>Dimension</th><th>Existing Approach</th><th>VividForge</th></tr></thead>
-    <tbody>
-      <tr><td>Speed: paper to deployment</td><td>15&ndash;20 years (average)</td><td>Months</td></tr>
-      <tr><td>Gatekeepers</td><td>VCs, TTOs, governments</td><td>Zero &mdash; DAO + code</td></tr>
-      <tr><td>Research incentive</td><td>Citation counts &amp; grants</td><td>Real-world ForgePulse value</td></tr>
-      <tr><td>IP &amp; licensing default</td><td>Closed patents (20 yr)</td><td>Open-source global</td></tr>
-      <tr><td>End-user participation</td><td>None (passive)</td><td>Active co-creation</td></tr>
-      <tr><td>System self-improvement</td><td>Static / manual</td><td>Recursive AI feedback loop</td></tr>
-      <tr><td>Impact measurement</td><td>Surveys, retrospective</td><td>Real-time blockchain-verified</td></tr>
-      <tr><td>Geographic equity</td><td>Rich-country biased</td><td>Optimised for Global South</td></tr>
-    </tbody>
-  </table>
-  </div>
+<span class="sl">// Competitive Landscape</span>
+<h2>Why Nothing Else Comes Close</h2>
+<p style="margin-bottom:1.5rem">Every existing system has a structural gap that VividForge eliminates by design.</p>
+<div class="tblw">
+<table>
+<thead><tr><th>Dimension</th><th>Existing Approach</th><th>VividForge</th></tr></thead>
+<tbody>
+<tr><td>Speed: paper to deployment</td><td>15&ndash;20 years (average)</td><td>Months</td></tr>
+<tr><td>Gatekeepers</td><td>VCs, TTOs, governments</td><td>Zero &mdash; DAO + code</td></tr>
+<tr><td>Research incentive</td><td>Citation counts &amp; grants</td><td>Real-world ForgePulse value</td></tr>
+<tr><td>IP &amp; licensing default</td><td>Closed patents (20 yr)</td><td>Open-source global</td></tr>
+<tr><td>End-user participation</td><td>None (passive)</td><td>Active co-creation</td></tr>
+<tr><td>System self-improvement</td><td>Static / manual</td><td>Recursive AI feedback loop</td></tr>
+<tr><td>Impact measurement</td><td>Surveys, retrospective</td><td>Real-time blockchain-verified</td></tr>
+<tr><td>Geographic equity</td><td>Rich-country biased</td><td>Optimised for Global South</td></tr>
+</tbody>
+</table>
+</div>
 </section>
-
 <div class="divider"><span>&#8987;</span></div>
 <section>
-  <span class="sl">// Projected Impact Timeline</span>
-  <h2>Planetary-Scale Effects Within a Decade</h2>
-  <br/>
-  <div class="timeline">
-    <div class="tli"><div class="tyr">Year 1&ndash;2</div><h4>Foundation &amp; Proof-of-Concept</h4><p>First 1,000 Vivid Blueprints generated. Pilot deployments across 10 countries. ForgePulse token launched. First measurable impact cohort blockchain-verified.</p></div>
-    <div class="tli"><div class="tyr">Year 3&ndash;4</div><h4>Network Effects Ignite</h4><p>Recursive loop improves blueprint quality exponentially. Journals compete on ForgePulse leaderboards. First major health breakthrough reaches rural clinics before rich-country hospitals.</p></div>
-    <div class="tli"><div class="tyr">Year 5&ndash;7</div><h4>Institutional Disruption</h4><p>Traditional tech-transfer offices lose relevance. Climate solutions deploy at viral speed. Agricultural leapfrogging accelerates across the Global South. Governments integrate VividForge blueprints into public infrastructure planning.</p></div>
-    <div class="tli"><div class="tyr">Year 8&ndash;10</div><h4>New Global Economy of Impact</h4><p>ForgePulse becomes a recognised measure of institutional contribution. Education, agriculture, and healthcare generations leapfrogged across the developing world. The gap between discovery and deployment closes to near-zero.</p></div>
-  </div>
+<span class="sl">// Projected Impact Timeline</span>
+<h2>Planetary-Scale Effects Within a Decade</h2>
+<br/>
+<div class="timeline">
+<div class="tli"><div class="tyr">Year 1&ndash;2</div><h4>Foundation &amp; Proof-of-Concept</h4><p>First 1,000 Vivid Blueprints generated. Pilot deployments across 10 countries. ForgePulse token launched. First measurable impact cohort blockchain-verified.</p></div>
+<div class="tli"><div class="tyr">Year 3&ndash;4</div><h4>Network Effects Ignite</h4><p>Recursive loop improves blueprint quality exponentially. Journals compete on ForgePulse leaderboards. First major health breakthrough reaches rural clinics before rich-country hospitals.</p></div>
+<div class="tli"><div class="tyr">Year 5&ndash;7</div><h4>Institutional Disruption</h4><p>Traditional tech-transfer offices lose relevance. Climate solutions deploy at viral speed. Agricultural leapfrogging accelerates across the Global South. Governments integrate VividForge blueprints into public infrastructure planning.</p></div>
+<div class="tli"><div class="tyr">Year 8&ndash;10</div><h4>New Global Economy of Impact</h4><p>ForgePulse becomes a recognised measure of institutional contribution. Education, agriculture, and healthcare generations leapfrogged across the developing world. The gap between discovery and deployment closes to near-zero.</p></div>
+</div>
 </section>
-
 <div class="divider"><span>&#128640;</span></div>
 <div class="cta">
-  <div class="ctal"></div>
-  <h2>The Forge Is Ready.<br/>The World Is Waiting.</h2>
-  <p>VividForge is a call to every researcher, maker, technologist, and citizen who believes that discovery without deployment is a moral failure. The architecture exists. The incentives exist. The technology exists. Only the will to forge remains.</p>
-
+<div class="ctal"></div>
+<h2>The Forge Is Ready.<br/>The World Is Waiting.</h2>
+<p>VividForge is a call to every researcher, maker, technologist, and citizen who believes that discovery without deployment is a moral failure. The architecture exists. The incentives exist. The technology exists. Only the will to forge remains.</p>
 </div>
-
 </div>
 </main>
-
 <footer>
 <div class="wrap">
-  <div class="flogo">VividForge</div>
-  <div class="ftag">// The Living Knowledge Forge &nbsp;&middot;&nbsp; Planetary Innovation Architecture</div>
-  <div class="fgrid">
-    <div class="fcol">
-      <h5>About This Concept</h5>
-      <p>VividForge is a completely original concept created by Kallol Chakrabarti, Global Independent Researcher. It represents a new institutional layer for humanity &mdash; the first closed-loop system designed to make academic discovery and real-world invention the same continuous, self-reinforcing process, enforced by code and incentives rather than good intentions.</p>
-    </div>
-    <div class="fcol">
-      <h5>Core Pillars</h5>
-      <ul>
-        <li>Vivid Blueprint Generation</li>
-        <li>Citizen&ndash;Technocrat Matching</li>
-        <li>ForgePulse Token Economy</li>
-        <li>Recursive Self-Improvement</li>
-        <li>Zero-Gatekeeper DAO</li>
-        <li>Open-Source Global Licensing</li>
-      </ul>
-    </div>
-    <div class="fcol">
-      <h5>Key Targets</h5>
-      <ul>
-        <li>Months, not decades</li>
-        <li>Global South prioritised</li>
-        <li>Blockchain-verified impact</li>
-        <li>Any language, any village</li>
-        <li>Real economy of impact</li>
-        <li>Planetary scale by Year 10</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="disc">
-    <h6>&#9888; Disclaimer</h6>
-    <p>VividForge is a conceptual framework and innovation architecture proposed for scholarly and public discourse. It has not been implemented, funded, or endorsed by any institution, government, or organisation. All projected timelines and impact estimates are illustrative and intended to convey the potential scale of the concept, not guaranteed outcomes. The concept is presented in good faith for the purpose of advancing global innovation policy debate. The creator makes no warranties, express or implied, regarding the feasibility, legality, or financial viability of any component described herein. Any implementation of this concept in whole or in part must comply with applicable laws and regulations in the relevant jurisdiction. The creator bears no liability for any action taken based on this document.</p>
-  </div>
-
-  <div class="cc">
-    <div class="ccicon">&#169;</div>
-    <div class="cctxt">
-      <strong>Creative Commons Attribution 4.0 International (CC BY 4.0)</strong><br/>
-      This work &mdash; <em>VividForge: The Living Knowledge Forge</em> &mdash; is licensed under the Creative Commons Attribution 4.0 International License. You are free to share and adapt this material for any purpose, including commercially, provided that appropriate credit is given to <strong>Kallol Chakrabarti, Global Independent Researcher</strong>, a link to the license is provided, and any changes are clearly indicated. Full license: <em>creativecommons.org/licenses/by/4.0</em>
-    </div>
-  </div>
-
-  <div class="author">
-    <div class="aname">Kallol Chakrabarti</div>
-    <div class="atitle">Global Independent Researcher</div>
-    <div class="ameta">VividForge &nbsp;&middot;&nbsp; Original Concept &nbsp;&middot;&nbsp; CC BY 4.0 &nbsp;&middot;&nbsp; 2025</div>
-  </div>
+<div class="flogo">VividForge</div>
+<div class="ftag">// The Living Knowledge Forge &nbsp;&middot;&nbsp; Planetary Innovation Architecture</div>
+<div class="fgrid">
+<div class="fcol">
+<h5>About This Concept</h5>
+<p>VividForge is a completely original concept created by Kallol Chakrabarti, Global Independent Researcher. It represents a new institutional layer for humanity &mdash; the first closed-loop system designed to make academic discovery and real-world invention the same continuous, self-reinforcing process, enforced by code and incentives rather than good intentions.</p>
+</div>
+<div class="fcol">
+<h5>Core Pillars</h5>
+<ul>
+<li>Vivid Blueprint Generation</li>
+<li>Citizen&ndash;Technocrat Matching</li>
+<li>ForgePulse Token Economy</li>
+<li>Recursive Self-Improvement</li>
+<li>Zero-Gatekeeper DAO</li>
+<li>Open-Source Global Licensing</li>
+</ul>
+</div>
+<div class="fcol">
+<h5>Key Targets</h5>
+<ul>
+<li>Months, not decades</li>
+<li>Global South prioritised</li>
+<li>Blockchain-verified impact</li>
+<li>Any language, any village</li>
+<li>Real economy of impact</li>
+<li>Planetary scale by Year 10</li>
+</ul>
+</div>
+</div>
+<div class="disc">
+<h6>&#9888; Disclaimer</h6>
+<p>VividForge is a conceptual framework and innovation architecture proposed for scholarly and public discourse. It has not been implemented, funded, or endorsed by any institution, government, or organisation. All projected timelines and impact estimates are illustrative and intended to convey the potential scale of the concept, not guaranteed outcomes. The concept is presented in good faith for the purpose of advancing global innovation policy debate. The creator makes no warranties, express or implied, regarding the feasibility, legality, or financial viability of any component described herein. Any implementation of this concept in whole or in part must comply with applicable laws and regulations in the relevant jurisdiction. The creator bears no liability for any action taken based on this document.</p>
+</div>
+<div class="cc">
+<div class="ccicon">&#169;</div>
+<div class="cctxt">
+<strong>Creative Commons Attribution 4.0 International (CC BY 4.0)</strong><br/>
+This work &mdash; <em>VividForge: The Living Knowledge Forge</em> &mdash; is licensed under the Creative Commons Attribution 4.0 International License. You are free to share and adapt this material for any purpose, including commercially, provided that appropriate credit is given to <strong>Kallol Chakrabarti, Global Independent Researcher</strong>, a link to the license is provided, and any changes are clearly indicated. Full license: <em>creativecommons.org/licenses/by/4.0</em>
+</div>
+</div>
+<div class="author">
+<div class="aname">Kallol Chakrabarti</div>
+<div class="atitle">Global Independent Researcher</div>
+<div class="ameta">VividForge &nbsp;&middot;&nbsp; Original Concept &nbsp;&middot;&nbsp; CC BY 4.0 &nbsp;&middot;&nbsp; 2025</div>
+</div>
 </div>
 </footer>
-
 </body>
 </html>
