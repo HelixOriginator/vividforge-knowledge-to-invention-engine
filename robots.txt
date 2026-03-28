@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Direct search engines to your sitemap
+Sitemap: https://helixoriginator.github.io/vividforge-knowledge-to-invention-engine/sitemap.xml
+
+# Prevent crawling of duplicate index files to avoid SEO confusion
+Disallow: /index.html
